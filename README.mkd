@@ -1,0 +1,30 @@
+# Tetris Challenge!
+
+Build a Tetris like game in Javascript using Canvas 
+
+### Requirements
+
+- Every second the falling piece should go down 1 position
+- Have a score 
+- When a line is completed eliminate it and add to the score 10 points
+- Once the falling piece collide with another piece it should remain on that position
+- Game over when a piece ends outside of the top 
+- Controls
+  - Arrow left, move piece 1 position to the left if possible
+  - Arrow right, move piece 1 position to the right if possible
+  - Arrow down, move the piece 1 position down
+  - Arrow up, rotate the piece 90° 
+
+### Useful to know
+
+**block size**: 20px
+
+**width**: 10 blocks
+**height**: 20 blocks
+
+**shapes**:
+ - Square (yellow `#FFFF00`)
+ - Line (cyan `#00FFFF`)
+ - T (purple `#800080`)
+ - L (orange `#FFA500`)
+ - S (green `#00FF00`)
